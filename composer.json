@@ -1,0 +1,21 @@
+{
+    "name": "aigletter/mathematics",
+    "description": "Test math package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Petrov",
+            "email": "ivanpetrov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "aigletter\\mathematics\\": "src"
+        }
+    }
+}
